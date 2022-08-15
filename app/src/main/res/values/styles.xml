@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundColor">@color/backgroundColor</item>
+        <item name="backgroundbutton">@color/buttonlight</item>
+          </style>
+
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#3A4F5A</item>
+        <item name="colorPrimaryDark">#42474A</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundColor">#221C1C</item>
+        <item name="backgroundbutton">@color/buttondark</item>
+
+    </style>
+
+    <style name="RoundedMaterialButton" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">50dp</item>
+        <item name="android:insetLeft">0sp</item>
+        <item name="android:insetTop">0sp</item>
+        <item name="android:insetRight">0sp</item>
+        <item name="android:insetBottom">0sp</item>
+        <item name="buttonTint">@color/button_dark</item>
+        <item name="iconTint">@color/white</item>
+        <item name="elevation">5dp</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconPadding">0dp</item>
+
+
+    </style>
+
+</resources>
